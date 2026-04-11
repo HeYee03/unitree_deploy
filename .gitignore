@@ -71,5 +71,11 @@ datasets
 *.STL
 **/env.yaml
 
+# Whitelist robot meshes and SDK libraries
+!**/unitree_robots/**/*.STL
+!**/unitree_robots/**/*.obj
+!**/unitree_sdk2/**/*.so
+!**/unitree_sdk2/**/*.a
+
 # Mimic
 *.npz
